@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contratação - Formulario</title>
+        <link rel="stylesheet" href="./style.css">
+        <!--Google-Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Formulario de Contratação</h1>
+                <p>
+                    formulario de contratação de novos funcionarios(é importante
+                    que todos os campos sejam preenchidos devidamente*)
+                </p>
+            </header>
+            <form action="" method="POST">
+                <p>
+                    1. Qual o nome completo do canditato?
+                    <input
+                        type="text" autofocus required
+                        placeholder="Digite o nome completo do candidato"
+                    />
+                </p>
+                <p>
+                    2. Qual a vaga desejada?
+                    <input
+                        type="text" required
+                        placeholder="Digite o nome da vaga"
+                    />
+                </p>
+                <p>
+                    3. Digite o CPF do candidato:
+                    <input
+                        type="text" required
+                        placeholder="Digite o nome do candidato"
+                    />
+                </p>
+                <p>
+                    4. Digite o endereço com CEP do candidato:
+                    <input
+                        type="text" required
+                        placeholder="Digite o nome do candidato"
+                    />
+                </p>
+                <p>
+                    5. pretenção de salario do candidato?
+                    <p class="checkbox"><span>a)</span> <input required name="valor-real" type="radio"/> <span>800,00R$</span></p>
+                    <p class="checkbox"><span>b)</span> <input required name="valor-real" type="radio"/> <span>1.200,00R$</span></p>
+                    <p class="checkbox"><span>c)</span> <input required name="valor-real" type="radio"/> <span>1.800,00R$</span></p>
+                </p>
+                <p>
+                    6. Qual o nome do canditato?
+                    <input required
+                        type="text"
+                        placeholder="Digite o nome do candidato"
+                    />
+                </p>
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>
